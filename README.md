@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# RUN server - 
+nodemon server.js
+
+#RUN CLIENT  - 
+ng serve
+
+# How to start
+create your own data base 
+change here the MONGO_ATLAS_PW ->  this is the password to ypur database! 
+- "env": {
+        "MONGO_ATLAS_PW": "4gXKyAyWMOUWUhSh",
+        "JWT_KEY": "secret_this_should_be_longer"
+    }
+    and change in app.js mongoose conect! 
+    
+create your own user !
+
